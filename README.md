@@ -1,6 +1,8 @@
 # StudIA
 _[Projeto desenvolido com amplo uso de IA para fins estudo e de testagem de aplicação de modelos de IA local]_
 
+<img src="static/landing.png">
+
 Plataforma web de estudos impulsionada por Inteligência Artificial local via Ollama.
 
 O StudIA permite criar uma conta, autenticar-se com JWT, gerar materiais de estudo didáticos personalizados a partir de qualquer tema, revisar conceitos através de flashcards interativos e testar o aprendizado com questionários avaliativos com gabarito imediato.
@@ -24,8 +26,14 @@ O StudIA permite criar uma conta, autenticar-se com JWT, gerar materiais de estu
 - `POST /api/auth/logout`: Encerramento da sessão
 - `GET /api/auth/me`: Obtenção do perfil do usuário autenticado
 
+<br><br>
+<img src="static/dashboard.png">
+
 ### Estudos
 - `GET /api/studies`: Lista resumida dos estudos do usuário autenticado
 - `POST /api/studies/generate`: Gera estudo com Ollama, valida contrato JSON e persiste
 - `GET /api/studies/{id}`: Detalhes completos do estudo (conteúdo, flashcards, questionário)
 - `DELETE /api/studies/{id}`: Exclusão com validação estrita de posse
+
+<br><br>
+<img src="static/generation.png">
