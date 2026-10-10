@@ -15,11 +15,7 @@ export default function HomePage() {
       <main className="flex-1">
         <section className="relative overflow-hidden py-20 sm:py-28 bg-gradient-to-b from-purple-50/60 via-white to-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-purple-100 text-purple-700 text-xs font-semibold uppercase tracking-wider mb-6">
-              <Sparkles className="w-3.5 h-3.5" />
-              100% Local com Ollama &bull; Gratuito &bull; Privado
-            </div>
-
+            
             <h1 className="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight">
               Acelere seu aprendizado com{" "}
               <span className="text-purple-600 bg-clip-text">
