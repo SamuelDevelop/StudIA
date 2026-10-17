@@ -37,3 +37,11 @@ O StudIA permite criar uma conta, autenticar-se com JWT, gerar materiais de estu
 
 <br><br>
 <img src="static/generation.png">
+
+<div align="center">
+
+<b>SamuelDevelop | 2026</b>
+
+<i>Este projeto desenvolido com amplo uso de IA para fins estudo e de testagem de aplicação de modelos de IA local</i>
+
+</div>
